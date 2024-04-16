@@ -23,6 +23,10 @@ import Foundation
 import UIKit
 
 public class JailbreakDetection {
+    public init() {
+        // Initialization code
+    }
+    
     public func isJailbroken() -> Bool {
 #if !(TARGET_IPHONE_SIMULATOR)
 
