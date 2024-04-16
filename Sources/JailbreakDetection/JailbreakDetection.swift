@@ -22,7 +22,7 @@
 import UIKit
 import Foundation
 
-class DTTJailbreakDetection {
+class JailbreakDetection {
     static func isJailbroken() -> Bool {
 #if !(TARGET_IPHONE_SIMULATOR)
 
