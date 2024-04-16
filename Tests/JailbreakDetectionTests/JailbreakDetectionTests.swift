@@ -11,7 +11,7 @@ final class JailbreakDetectionTests: XCTestCase {
             #else
                 // If you are testing on a real device, you can't guarantee that it's not jailbroken.
                 // So, you can only test the negative case (when the device is not jailbroken).
-                if !JailbreakDetection.isJailbroken() {
+                if jailbreakDetection.isJailbroken() {
                     XCTAssertTrue(true, "Device is not jailbroken")
                 }
             #endif

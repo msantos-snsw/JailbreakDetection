@@ -19,11 +19,11 @@
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
-import UIKit
 import Foundation
+import UIKit
 
-class JailbreakDetection {
-    static func isJailbroken() -> Bool {
+public class JailbreakDetection {
+    public func isJailbroken() -> Bool {
 #if !(TARGET_IPHONE_SIMULATOR)
 
         let fileManager = FileManager.default
